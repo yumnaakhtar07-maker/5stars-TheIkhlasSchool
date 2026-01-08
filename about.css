@@ -1,0 +1,121 @@
+
+.principal-section {
+    padding: 120px 10% 80px;
+    background: white;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.principal-image {
+    position: relative;
+    flex: 1;
+}
+
+.principal-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
+.frame-decoration {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgba(255, 69, 0, 0.1);
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.principal-badge {
+    position: absolute;
+    bottom: 20px;
+    background: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.principal-text h1 { font-size: 3rem; color: #00447e; margin-bottom: 20px; }
+.orange-text { color: orangered; }
+.principal-text p { font-size: 1.2rem; line-height: 1.8; color: #555; font-style: italic; }
+
+.signature { 
+    margin-top: 30px; 
+    font-size: 1.2rem; 
+    border-left: 4px solid orangered; 
+    padding-left: 20px; }
+
+
+.vision-mission {
+    padding: 80px 10%;
+    background: #f3f1fa;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.vm-card {
+    background: white;
+    padding: 50px;
+    border-radius: 40px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.vm-card:hover { transform: translateY(-10px); box-shadow: 0 30px 60px rgba(0,68,126,0.1); }
+.vm-card .icon { font-size: 3rem; margin-bottom: 20px; }
+
+
+.tribute-section {
+    padding: 100px 10%;
+    text-align: center;
+    background:url('images/pic.jpg') fixed;
+    height:400px;
+    
+    overflow:hidden;
+    color: white;
+}
+
+.tribute-content p {
+    max-width: 800px;
+     margin: 20px auto;
+      font-size: 1.2rem;
+     }
+
+
+.parents-hope {
+    padding: 100px 10%;
+    background: white;
+}
+
+.hope-card {
+    background: #00447e;
+    color: white;
+    padding: 60px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hope-card h2 
+{ font-size: 45px;
+     margin-bottom: 20px; 
+}
+.blue-text {
+     color: #82b1ff; 
+    }

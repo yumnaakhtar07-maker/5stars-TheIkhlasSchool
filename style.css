@@ -1,0 +1,350 @@
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgb(243, 241, 250); 
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    backdrop-filter: blur(30px);
+    padding-right: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1000;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: #00447e; 
+}
+
+.logo-container img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.header-buttons ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-buttons ul li {
+    margin: 0 10px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size:20px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.header-buttons a:hover {
+    color: orangered;
+    background-color: rgba(255, 69, 0, 0.05);
+    font-size:25px;
+    box-shadow:0px 10px 30px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.inquire-button {
+    background-color: #00447e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    transition: 0.6s;
+}
+
+.inquire-button:hover {
+    color: #00447e;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #00447e;
+    text-decoration: none;
+    border-radius: 15px; 
+}
+
+
+.hero-video {
+    position: relative;
+    height: 550px; 
+    width: 100%;
+    overflow: hidden;
+    margin-top: 90px;
+
+}
+
+.hero-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-overlay h2 {
+    font-size: 60px;
+    color: white;
+    border: 3px solid white;
+    padding: 15px 45px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.welcome-section {
+    padding: 100px 50px;
+    background-color: white;
+    text-align: center; 
+}
+
+.welcome-content {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.welcome-image {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.welcome-image img {
+    width: 100%;
+    border-radius: 80px 10px 80px 10px;
+    box-shadow: 20px 20px 0px rgb(243, 241, 250);
+}
+
+.sub-heading {
+    color: orangered;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.welcome-content h1 {
+    font-size: 45px;
+    color: #00447e;
+    margin: 15px 0px;
+}
+
+.welcome-content h1 span {
+    color: orangered;
+}
+
+.formula-section {
+    padding: 60px;
+    background-color: #00447e;
+    text-align: center;
+}
+
+.formula-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.math-formula {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00447e;
+}
+
+
+.stats-bar {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.stat-item {
+    display: inline-block;
+    width: 200px;
+    margin: 0px 20px;
+}
+
+.stat-item h2 {
+    font-size: 50px;
+    color: orangered;
+    margin-bottom: 0px;
+}
+
+
+.features-section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.cards-container {
+    text-align: center;
+}
+
+.feature-card {
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    padding: 40px 20px  ;
+    border-radius: 30px;
+    margin: 15px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    vertical-align: top; 
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+.footnote-banner {
+    background: url('images/kids.jpg') center/cover fixed;
+    height: 400px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-card img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+
+.accent-line {
+    width: 50px;
+    height: 5px;
+    background-color: orangered;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.footer-wrapper {
+    position: relative;
+    background-color: #002244; 
+    color: white;
+    padding: 100px 0px 20px 0px;
+    overflow: hidden; 
+}
+
+.footer-container {
+    position: relative;
+    flex-wrap: wrap;
+    z-index: 1;
+    text-align: center;
+    align-items:center;
+}
+
+.footer-glass-card {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 300px;
+    height:350px;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition:0.6s
+    
+}
+.footer-glass-card:hover{
+    transform: translateY(-10px);
+    box-shadow:0px 10px 30px rgba(255, 255, 255, 0.356);
+}
+
+.footer-logo img {
+    height: 70px;
+}
+
+.orange {
+    color: orangered;
+    margin-bottom: 15px;
+}
+
+.social-pill {
+    display: flex;
+    flex-direction:column;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    margin:20px ;
+    font-weight: 600;
+}
+
+.footer-glass-card  h4, .footer-glass-card  h3  {
+    font-size: 35px;
+}
+
+.footer-glass-card  p {
+    font-size: 20px;
+}
+
+
+.whatsapp-pill { background-color: #25D366; }
+.youtube-pill { background-color: #FF0000; }
+
+.bottom-credits {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: lightgrey;
+}
+
+.address {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+}

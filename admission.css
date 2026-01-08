@@ -1,0 +1,186 @@
+
+.body {
+    align-items: center;
+    justify-items: center;
+    
+    margin: 0px;
+}
+
+
+.admission-hero {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 68, 126, 0.7), rgba(0, 68, 126, 0.7)), url('images/shahi.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    padding-top: 140px; 
+}
+
+.hero-overlay h1 { 
+    font-size: 55px; 
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.admission-schedule {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 200px;
+    text-align: center; 
+}
+
+.admission-img {
+    display: inline-block;
+    max-width: 700px; 
+    border-radius: 40px;
+    vertical-align: middle;
+    box-shadow: 0px 10px 20px grey;
+}
+
+.admission-txt {
+    display: inline-block;
+    width: 350px;
+    vertical-align: middle;
+    margin-left: 30px;
+    text-align: center;
+}
+
+
+.admission-info-grid {
+    padding: 80px 10%;
+}
+
+.info-row {
+    margin-bottom: 100px;
+    clear: both; 
+}
+
+.info-img {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.info-img img {
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.info-txt {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+
+.badge {
+    background-color: orangered;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info-txt h2 {
+    font-size: 35px;
+    color: #00447e;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.window-cards {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.window-card {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    margin: 10px;
+}
+
+.window-card.red { background: rgba(255, 69, 0, 0.1); color: #d32f2f; }
+.window-card.green { background: rgba(172, 255, 47, 0.2); color: #388e3c; }
+
+.progress-bar {
+    height: 8px;
+    background-color: currentColor;
+    margin-top: 15px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+.eligibility-list {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.eligibility-list li {
+    padding: 10px 0px;
+    padding-left: 30px;
+    position: relative;
+    font-weight: 500;
+    text-align: left;
+}
+
+.eligibility-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: orangered;
+    font-weight: bold;
+}
+
+
+.process-section {
+    background-color: #f8f9fa;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.steps-container {
+    margin-top: 50px;
+}
+
+.step {
+    display: inline-block;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 250px;
+    margin: 15px;
+    vertical-align: top;
+    text-align: left;
+    height: 220px;
+    position: relative;
+    transition: 0.3s;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
+}
+
+.step:hover { 
+    transform: translateY(-10px); 
+}
+
+.step-number {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 68, 126, 0.1);
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.step h4 { 
+    color: #00447e; 
+    margin-bottom: 10px; 
+}
